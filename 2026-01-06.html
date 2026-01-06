@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI资讯日报 - 2026-01-06</title>
+    <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #2d3436;
+            --text-muted: #636e72;
+            --accent-color: #00b894;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.7;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        header h1 { font-size: 2.8em; margin-bottom: 15px; letter-spacing: -1px; }
+        header .date { font-size: 1.2em; opacity: 0.9; font-weight: 300; }
+        
+        .article-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            margin-bottom: 50px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .article-header {
+            padding: 25px 35px;
+            background: #fcfcfd;
+            border-bottom: 1px solid #f1f2f6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .article-index {
+            font-size: 1.8em;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+        
+        .badges { display: flex; gap: 10px; }
+        .badge {
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.8em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .badge-source { background: #edf2ff; color: #4c6ef5; }
+        .badge-hot { background: #fff9db; color: #f08c00; }
+        .badge-lang { background: #ebfbee; color: #2f9e44; }
+        
+        .article-content { padding: 40px; }
+        
+        .section-title {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-title::after { content: ""; flex: 1; height: 1px; background: #eee; }
+        
+        .bilingual-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .lang-col h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            border-left: 4px solid var(--primary-color);
+            font-style: italic;
+            color: #444;
+        }
+        
+        .full-text {
+            font-size: 1.05em;
+            color: #333;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .actions {
+            padding: 25px 40px;
+            background: #fcfcfd;
+            border-top: 1px solid #f1f2f6;
+            text-align: right;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4); }
+        
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 850px) {
+            .bilingual-grid { grid-template-columns: 1fr; gap: 50px; }
+            header h1 { font-size: 2em; }
+            .article-content { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI资讯日报</h1>
+            <div class="date">2026-01-06</div>
+        </header>
+        
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#1</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 66.0</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention</h2>
+                        
+                        
+                        <div class="summary-box">
+                            AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention
+An anomaly or the beginning of a new trend? My bet's on the latter
+I've been tracking AWS for a long time, with a specific emphasis on pricing. "What happens if AWS hikes prices" has always been something of a boogeyman, trotted out as a hypothetical to urge folks to avoid taking dependencies on a given provider.
+Over the weekend - on a Saturday, no less - that hypothetical became real.
+AWS has quietly raised prices on its EC2 Capacity Blocks for ML by approximately 15 percent. The p5e.48xlarge instance – eight NVIDIA H200 accelerators in a trenchcoat – jumped from $34.61 to $39.80 per hour across most regions, while the p5en.48xlarge climbed from $36.18 to $41.61. Customers in US West (N. California) face steeper hikes, with p5e rates rising from $43.26 to $49.75. The change had been telegraphed: AWS's pricing page noted (and bizarrely, still does) that "current prices are scheduled to be updated in January, 2026," though the company neglected to mention which direction.
+This comes about seven months after AWS trumpeted "up to 45% price reductions" for GPU instances - though that announcement covered On-Demand and Savings Plans rather than Capacity Blocks. Funny how that works.
+For the uninitiated, Capacity Blocks are AWS's answer to "I need guaranteed GPU capacity for my ML training job next Tuesday." You reserve specific GPU instances for a defined time window – anywhere from a day to a few weeks out – and pay up front at a locked-in rate. It's popular with companies doing serious ML work who can't afford to have a training run interrupted because spot capacity evaporated. The pricing should make it abundantly clear that the people using this aren't hobbyists; these are teams with budgets measured in millions.
+An Amazon spox told us via email, "EC2 Capacity Blocks for ML pricing vary based on supply and demand patterns, as described on the product detail page. This price adjustment reflects the supply/demand patterns we expect this quarter."
+To be clear, AWS has raised prices before, but rarely as a straight increase to a line item. The company prefers to change pricing dimensions entirely, often spinning this as a price reduction for most customers – a claim I'd characterize as "creative." Historical straight-up price increases have been tied to regulatory actions: per-SMS charges in certain markets and the like. This is different.
+The timing is curious for another reason: it hands Azure and GCP a talking point on a silver platter. Both have been aggressively courting ML workloads, and "AWS just raised GPU prices 15%" is exactly the kind of ammunition enterprise sales teams dream about. Whether the competitors can actually absorb the demand is another question – GPU constraints are hardly unique to AWS – but perception matters in enterprise deals.
+For companies with Enterprise Discount Programs or other negotiated agreements, this raises uncomfortable questions. EDPs </div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>AWS在周六上调GPU价格15%，希望你没注意到</h2>
+                        
+                        
+                        <div class="summary-box">
+                            AWS在周六悄然上调GPU价格15%，希望你没注意到。
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">AWS在周六悄然上调GPU价格15%，希望你没注意到  
+这是偶发事件还是新趋势的开端？我赌后者  
+
+我长期关注AWS，尤其是其定价策略。“如果AWS涨价会怎样”一直是个让人忌惮的假设，用来劝诫大家不要过度依赖某个供应商。  
+然而就在周末——还是周六——这个假设成了现实。  
+
+AWS悄无声息地将其用于机器学习的EC2容量块价格上调了约15%。p5e.48xlarge实例——配备八块NVIDIA H200加速卡的“隐形斗篷”——在大多数地区的价格从每小时34.61美元涨至39.80美元，而p5en.48xlarge则从36.18美元涨至41.61美元。美国西部（北加州）地区的涨幅更大，p5e实例价格从43.26美元涨至49.75美元。虽然这次调整早有预兆：AWS的定价页面曾（且奇怪的是仍然）标注“当前价格计划于2026年1月更新”，但公司并未说明涨价还是降价。  
+
+这距离AWS宣布GPU实例“最高降价45%”仅七个月——不过那次公告针对的是按需实例和储蓄计划，而非容量块。有趣的是，情况竟然如此反转。  
+
+对于不熟悉的人来说，容量块是AWS对“我需要下周二保证有GPU容量用于机器学习训练”的回应。你可以预订特定GPU实例，在一天到几周的时间窗口内使用，并提前以锁定价格支付。这种方式深受那些做严肃机器学习工作的公司欢迎，因为他们不能承受训练任务因抢占式容量消失而中断。价格也充分表明，使用这项服务的绝非业余爱好者，而是预算以百万计的团队。  
+
+亚马逊一位发言人通过邮件告诉我们：“机器学习用EC2容量块的定价会根据供需模式变化，具体说明见产品详情页。本次价格调整反映了我们预计本季度的供需状况。”  
+
+需要明确的是，AWS以前也涨过价，但很少直接对某一条目进行简单涨价。公司更倾向于彻底改变定价维度，常常将其包装成对大多数客户的降价——这种说法我称之为“富有创意”。历史上的直接涨价通常与监管措施有关，比如某些市场的短信单价等。这次则不同。  
+
+这次调整的时机也颇为耐人寻味：它无疑为Azure和GCP提供了一个绝佳的宣传点。两者一直积极争取机器学习工作负载，而“AWS刚刚将GPU价格上调15%”正是企业销售团队梦寐以求的弹药。竞争对手是否真的能满足需求是另一回事——GPU资源紧缺并非AWS独有——但在企业交易中，感知往往至关重要。  
+
+对于拥有企业折扣计划（EDP）或其他谈判协议的公司来说，这无疑带来了令人不安的问题。EDP……</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://www.theregister.com/2026/01/05/aws_price_increase/" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#2</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 52.3</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Show HN: A file-based agent memory framework that works like skill</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Show HN: A file-based agent memory framework that works like skill
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">A Future-Oriented Agentic Memory System
+MemU is an agentic memory framework for LLM and AI agent backends. It receives multimodal inputs (conversations, documents, images), extracts them into structured memory, and organizes them into a hierarchical file system that supports both embedding-based (RAG) and non-embedding (LLM) retrieval.
+MemU is collaborating with four open-source projects to launch the 2026 New Year Challenge. 🎉Between January 8–18, contributors can submit PRs to memU and earn cash rewards, community recognition, and platform credits. 🎁Learn more & get involved
+🗂️ Hierarchical File System
+MemU organizes memory using a three-layer architecture inspired by hierarchical storage systems:
+MemU processes diverse content types into unified memory:
+All modalities are unified into the same three-layer hierarchy, enabling cross-modal retrieval.
+Option 1: Cloud Version
+Try MemU instantly without any setup:
+👉 memu.so - Hosted cloud service with full API access
+For enterprise deployment and custom solutions, contact info@nevamind.ai
+📚 Full API Documentation
+Option 2: Self-Hosted
+Requirements: Python 3.13+ and an OpenAI API key
+Test with In-Memory Storage (no database required):
+Test with PostgreSQL Storage (requires pgvector):
+Both examples demonstrate the complete workflow:
+See tests/test_inmemory.py and tests/test_postgres.py for the full source code.
+memorize() - Extract and Store Memory
+Processes input resources and extracts structured memory:
+retrieve() - Query Memory
+Retrieves relevant memory based on queries. MemU supports two retrieval strategies:
+RAG-based Retrieval (method="rag")
+Fast embedding vector search using cosine similarity:
+LLM-based Retrieval (method="llm")
+Deep semantic understanding through direct LLM reasoning:
+Both methods support:
+Scope Filtering: Use where to filter by user model fields:
+📚 For complete API documentation, see SERVICE_API.md - includes all methods, CRUD operations, pipeline configuration, and configuration types.
+Example 1: Conversation Memory
+Extract and organize memory from multi-turn conversations:
+Best for: Personal AI assistants, customer support bots, social chatbots
+Example 2: Skill Extraction from Logs
+Extract skills and lessons learned from agent execution logs:
+Best for: DevOps teams, agent self-improvement, knowledge management
+Example 3: Multimodal Memory
+Process diverse content types into unified memory:
+Best for: Documentation systems, learning platforms, research tools
+MemU achieves 92.09% average accuracy on the Locomo benchmark across all reasoning tasks.
+View detailed experimental data: memU-experiment
+⭐ Star us on GitHub to get notified about new releases!</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>展示 HN：一个像技能一样运作的基于文件的代理记忆框架</h2>
+                        
+                        
+                        <div class="summary-box">
+                            展示 HN：一个基于文件的代理记忆框架，功能如同技能般运作
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">面向未来的智能代理记忆系统  
+MemU 是一个面向大型语言模型（LLM）和 AI 代理后端的智能代理记忆框架。它接收多模态输入（对话、文档、图像），将其提取为结构化记忆，并组织成支持基于嵌入（RAG）和非嵌入（LLM）检索的分层文件系统。  
+MemU 正与四个开源项目合作，发起 2026 新年挑战赛。🎉 1 月 8 日至 18 日期间，贡献者可向 MemU 提交 PR，赢取现金奖励、社区认可及平台积分。🎁 了解详情并参与其中  
+
+🗂️ 分层文件系统  
+MemU 采用受分层存储系统启发的三层架构来组织记忆：  
+MemU 将多样化内容统一处理为结构化记忆：  
+所有模态统一归入同一三层层级，实现跨模态检索。  
+
+方案一：云端版本  
+无需任何配置，立即体验 MemU：  
+👉 memu.so - 托管云服务，提供完整 API 访问  
+企业部署及定制解决方案，请联系 info@nevamind.ai  
+
+📚 完整 API 文档  
+
+方案二：自托管  
+要求：Python 3.13 及以上版本，OpenAI API 密钥  
+内存存储测试（无需数据库）：  
+PostgreSQL 存储测试（需 pgvector 支持）：  
+两个示例均展示完整工作流程：  
+详见 tests/test_inmemory.py 和 tests/test_postgres.py 源代码。  
+
+memorize() - 提取并存储记忆  
+处理输入资源，提取结构化记忆。  
+
+retrieve() - 查询记忆  
+基于查询检索相关记忆。MemU 支持两种检索策略：  
+RAG 检索（method="rag"）  
+基于余弦相似度的快速嵌入向量搜索。  
+
+LLM 检索（method="llm"）  
+通过直接调用 LLM 进行深度语义推理。  
+
+两种方法均支持：  
+范围过滤：使用 where 按用户模型字段过滤。  
+
+📚 完整 API 文档请参见 SERVICE_API.md，涵盖所有方法、CRUD 操作、流水线配置及配置类型。  
+
+示例 1：对话记忆  
+从多轮对话中提取并组织记忆：  
+适用场景：个人 AI 助理、客户支持机器人、社交聊天机器人  
+
+示例 2：从日志中提取技能  
+从代理执行日志中提取技能和经验教训：  
+适用场景：DevOps 团队、代理自我提升、知识管理  
+
+示例 3：多模态记忆  
+处理多样内容类型，统一存储记忆：  
+适用场景：文档系统、学习平台、科研工具  
+
+MemU 在 Locomo 基准测试中所有推理任务平均准确率达 92.09%。  
+查看详细实验数据：memU-experiment  
+
+⭐ 在 GitHub 上为我们点赞，及时获取新版本通知！</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://github.com/NevaMind-AI/memU" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#3</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 49.9</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>The Slow Death of Scaling (deep learning models)</h2>
+                        
+                        
+                        <div class="summary-box">
+                            The Slow Death of Scaling (deep learning models)
+                        </div>
+                        
+                        
+                        
+                        <div style="color: #999; font-style: italic;">Full content not available for this source.</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>规模化的缓慢消亡（深度学习模型）</h2>
+                        
+                        
+                        <div class="summary-box">
+                            规模扩展的缓慢衰亡（深度学习模型）
+                        </div>
+                        
+                        
+                        
+                        <div style="color: #999; font-style: italic;">暂无正文翻译。</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5877662" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#4</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 49.2</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side
+                        </div>
+                        
+                        
+                        
+                        <div style="color: #999; font-style: italic;">Full content not available for this source.</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>展示 HN：相似度 = 余弦相似度（你的 GitHub 收藏，Karpathy）客户端实现</h2>
+                        
+                        
+                        <div class="summary-box">
+                            展示 HN：相似度 = 余弦相似度（你的 GitHub 收藏夹，Karpathy）客户端实现
+                        </div>
+                        
+                        
+                        
+                        <div style="color: #999; font-style: italic;">暂无正文翻译。</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://puzer.github.io/github_recommender/" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#5</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 48.4</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Small things that will make 3x better at vibe coding</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Small things that will make 3x better at vibe coding
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">One thing to start off, this is neither a guru-kind of post where I will claim I know something you all don't know, nor it is that I am any more intelligent than you. ItItss simply just my personal experience.Here are the things (by increasing order) -1. Building from 1st Principles : Most vibe coders start off by just chasing something extra complex which might look achievable till 90%, but gets much more complicated in the later 10% due to the engineering limitations of human or artificial intelligence. So, rather than telling the AI rigorously to "fix the code", see the code, send parts of the code to other reasoning models, and think - "Why at the point, this error is occurring?"If you start thinking in less complex questions, your reasoning capacity becomes strong thus making your overall interaction with vibe coding applications stronger.2. Think in terms of structure : This is one of the key things vibe coders are missing. Most of us just write a prompt and expect AI to come up with a ready-to-deploy version. But honestly, AI is not our senior developer (yet).If I am to start with a new project today, I will come up with the list of all stacks I will be using - Db, auth, vectors, ML libraries, etc. and then create a list of these libraries, and a folder structure to start off. I might use ChatGPT to create this but the main point is, I get it pre-built before starting to vibe code. Once done, I will let my IDE take over it.3. Documenting & Always be Knowing What Your Code Does : One major setback for vibe coders is that most of them don't really understand what part of their code is doing exactly what? That's the reason why a developer can do atleast 3 times better vibe coding than a regular person coz he can read the terminal for errors, see through code and apply his intelligence in writing prompts that will fix things.Now, don't start learning programming because of this. You are way better than that. But just get knowledge of how backend like HTTP, CD/CI pipelines, SQL, guardrails, evals, Websockets, API, Redis, etc. works. Once you know what this is, you will be much better at mindful thinking and building stuff.About documenting, you can just create one file (mind.md or something) that will contain all major changes and logs of things you are doing. Even you can go a step beyond and create proper documentation for you, your users and future dev team to help understand what your code is about. You can use SuperDocs[dot]cloud for using AI to create documents without actually writing it.At last, the advice is to think and have knowledge of stack like a developer but execute with AI. That will help you make much better apps at scale. I know, I might have missed a few things, feel free to add stuffs in the replies.Also, if you are building this by yourself and got stuck somewhere or have any question, please ask me, I will try to respond you.
+Here are the things (by increasing order) -1. Building from 1st Principles : Most vibe coders sta</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>提升三倍氛围编码体验的小技巧</h2>
+                        
+                        
+                        <div class="summary-box">
+                            提升三倍Vibe编码效率的小技巧
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">首先声明，这篇文章既不是那种我掌握了你们不知道的“大神”级别的干货，也不是说我比你们更聪明。它仅仅是我的个人经验总结。以下内容按重要性递增排列：
+
+1. 从第一性原理出发构建：大多数vibe编码者一开始就追求某种看似复杂且能完成90%的目标，但由于人类或人工智能的工程限制，最后10%的部分却异常复杂。因此，与其严格要求AI“修复代码”，不如先观察代码，将部分代码发送给其他推理模型，并思考——“为什么在这里会出现这个错误？”如果你开始用更简单的问题去思考，你的推理能力会变强，从而整体提升你与vibe编码应用的互动效果。
+
+2. 以结构化思维进行思考：这是许多vibe编码者忽视的关键点。大多数人只是写一个提示语，期望AI能直接给出可部署的版本。但坦白说，AI还不是我们的高级开发者（至少目前还不是）。如果我今天要开始一个新项目，我会先列出所有将使用的技术栈——数据库、认证、向量、机器学习库等，然后整理出这些库的清单和文件夹结构，作为起点。虽然我可能会用ChatGPT来帮忙创建这些内容，但关键是我在开始vibe编码之前就已经有了预先搭建好的框架。完成后，我会让我的集成开发环境（IDE）接管后续工作。
+
+3. 代码文档与始终清楚代码功能：vibe编码者的一个主要短板是大多数人并不真正理解自己代码的具体功能。这也是为什么开发者能够比普通人至少三倍效率地进行vibe编码——因为他们能读懂终端错误，审视代码，并运用自己的智慧编写修复问题的提示语。这里并不是让你去学习编程，你的能力远超此，但建议你了解后端知识，比如HTTP、持续集成/持续部署（CI/CD）流水线、SQL、保护机制、评估（evals）、WebSocket、API、Redis等。一旦你了解这些，你的思维会更加有意识，构建能力也会大幅提升。关于文档，你可以创建一个文件（比如mind.md），记录所有重大变更和操作日志。你甚至可以更进一步，为自己、用户和未来的开发团队编写完整文档，帮助他们理解你的代码。你可以使用SuperDocs[点]cloud，通过AI自动生成文档，而无需亲自撰写。
+
+最后的建议是：像开发者一样思考和掌握技术栈，但用AI来执行。这将帮助你大幅提升应用的规模和质量。我知道可能遗漏了一些内容，欢迎在评论区补充。如果你是独自开发过程中遇到困难或有任何问题，欢迎随时向我提问，我会尽力回复你。</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://news.ycombinator.com/item?id=46512398" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#6</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 48.4</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>What I Expected from Computer Engineering and Notes on first public project</h2>
+                        
+                        
+                        <div class="summary-box">
+                            What I Expected from Computer Engineering and Notes on first public project
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">I’d appreciate advice on learning in public and on whether the approach below makes sense.I’m a 19-year-old programmer from Brazil. I’ve been working on systems for aerospace machining facilities since I was 17. As I’ve learned more about professional software development, I’ve also realized how messy my early code was—which I think is a normal part of learning.I started a Computer Engineering degree at a state university when I was 18. So far, the experience has been far from what I expected. Many courses feel disconnected from real systems or hardware, with exercises that seem abstract and rarely connected to each other.If calculus I, II, and III are essential to solving computer engineering problems, why do we mostly work with artificial examples?
+If concepts like frequency filters and statistics are foundational to real systems, why are they often taught without practical context?Projects such as Nand2Tetris or Programming from the Ground Up seem to exist precisely to fill these gaps. This makes me wonder why this disconnect appears so frequently in university curricula.Before university, I had a very different learning experience. At 14, I studied Machining Mechanics at SENAI, a Brazilian institution closely connected to industry and employers. We would learn the math behind a component in the morning and apply it the same day on real machines. We designed machining processes and built practical tools—things we could take home, use, and show to others.Later, I participated in a CNC competition program aiming for WorldSkills qualification. That experience taught me discipline, performance, and continuous improvement.This is the feeling I miss in my Computer Engineering education.I’ve often been asked to teach—by friends, classmates, and even people online. I’ve helped peers and supported teachers informally for years. At some point, I realized I should stop only criticizing and try to build something that represents what I believe Computer Engineering education could look like.I’ve always believed that engineers should be able to build their “something” from the ground up. Not as scientists, but as the people who make complex systems actually work.For a project-based learning course, I decided to build a drone and a Ground Control Station (GCS) as the core project.My idea is to use a top-down approach, working across multiple abstraction layers. We would start with design patterns, engineering thinking, and real-world development practices using C#. The system would begin as a modular monolith, then be decomposed into microservices. Over time, services would be reimplemented in C++, and later in C, to make trade-offs between abstraction, performance, and control explicit.While access to electronics labs is limited, I still want to explain how the underlying physics and mathematics behind gyroscopes, GPS, and barometers are translated into real drone components by computer engineers.The GCS would involve networking, authentication, security, a</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>我对计算机工程的期望及首次公开项目的笔记</h2>
+                        
+                        
+                        <div class="summary-box">
+                            我对计算机工程的期望及首个公开项目的笔记
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">我非常希望能获得关于公开学习的建议，以及下面这种方法是否合理的看法。我是一名19岁的巴西程序员，从17岁起就开始为航空航天加工设施开发系统。随着我对专业软件开发了解的加深，也意识到自己早期的代码有多么混乱——我认为这是学习过程中很正常的一部分。
+
+18岁时，我开始在一所州立大学攻读计算机工程学位。到目前为止，这段经历远不如我预期的那样。许多课程感觉与真实系统或硬件脱节，练习题显得抽象且彼此之间很少关联。
+
+如果微积分I、II和III对于解决计算机工程问题至关重要，为什么我们大多处理的都是人为设计的例子？如果频率滤波器和统计学等概念是实际系统的基础，为什么它们常常在缺乏实际背景的情况下教授？像Nand2Tetris或Programming from the Ground Up这样的项目似乎正是为填补这些空白而存在的。这让我不禁思考，为什么大学课程中会如此频繁地出现这种脱节现象。
+
+在上大学之前，我的学习经历截然不同。14岁时，我在巴西一个与工业和雇主紧密联系的机构SENAI学习机械加工力学。我们上午学习一个零件背后的数学原理，当天就能在真实机器上应用。我们设计加工工艺，制作实用工具——这些东西可以带回家使用，并向他人展示。
+
+后来，我参加了一个旨在获得世界技能大赛资格的数控竞赛项目。那段经历教会了我纪律、绩效和持续改进。
+
+这正是我在计算机工程教育中所缺失的感觉。
+
+朋友、同学甚至网络上的人常常邀请我授课。多年来，我一直非正式地帮助同伴和支持教师。某个时刻，我意识到自己应该停止仅仅批评，而尝试构建一些能够体现我对计算机工程教育理想的东西。
+
+我一直相信，工程师应该能够从零开始构建他们的“某物”。不是作为科学家，而是作为让复杂系统真正运转的人。
+
+作为一个基于项目的学习课程，我决定以无人机和地面控制站（GCS）作为核心项目。
+
+我的想法是采用自顶向下的方法，跨越多个抽象层次。我们将从设计模式、工程思维和使用C#的真实开发实践开始。系统最初作为一个模块化单体架构，随后分解为微服务。随着时间推移，服务将用C++重新实现，之后再用C语言实现，以明确抽象、性能和控制之间的权衡。
+
+尽管电子实验室的访问受限，我仍希望解释陀螺仪、GPS和气压计背后的物理和数学原理，是如何被计算机工程师转化为真实无人机组件的。
+
+地面控制站将涉及网络、认证、安全、以及…</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://news.ycombinator.com/item?id=46512389" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#7</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 46.2</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Show HN: Doom (1993) Playable in a GitHub Readme</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Show HN: Doom (1993) Playable in a GitHub Readme
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">DoomMe: Running DOOM from a GitHub Readme
+Yes, this is literally the game. You can click it to start playing.
+DoomMe is Doom's E1M1 level running entirely inside GitHub's markdown viewer. Without using any javascript or a backend server, it's just 4,340 pre-rendered screenshots linked together with hyperlinks.
+Every position × every angle = a unique markdown file. Click a direction, load a new file. That's the whole "engine."
+📖 Full story: How I Made DOOM Run Inside a GitHub Readme
+Here's some gameplay I captured locally
+MIT - feel free to tweak around and play with the code
+Feel free to raise issues and PRs too
+Made with <3 by Kuber Mehta</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>展示 HN：Doom（1993）可在 GitHub 说明文档中游玩</h2>
+                        
+                        
+                        <div class="summary-box">
+                            展示 HN：Doom（1993）可在 GitHub 说明文档中游玩
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">DoomMe：在 GitHub Readme 中运行 DOOM  
+没错，这真的是游戏本体。你可以点击它开始游戏。  
+DoomMe 是 DOOM 的 E1M1 关卡，完全运行在 GitHub 的 Markdown 查看器中。没有使用任何 JavaScript 或后端服务器，它只是由 4,340 张预渲染截图通过超链接连接而成。  
+每个位置 × 每个角度 = 一个独特的 Markdown 文件。点击一个方向，加载一个新文件。这就是整个“引擎”。  
+📖 完整故事：我如何让 DOOM 在 GitHub Readme 中运行  
+这是我本地录制的一些游戏画面  
+MIT 许可——欢迎随意修改和玩转代码  
+也欢迎提交 issue 和 PR  
+由 Kuber Mehta 用 <3 制作</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://github.com/Kuberwastaken/DoomMe" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#8</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 45.4</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Ask HN: When tests keep passing but design stops moving</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Ask HN: When tests keep passing but design stops moving
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">Tests pass.
+Coverage improves.
+Refactoring feels safe.But at some point, the design just… stops moving.Not because the system is “done,”
+but because the tests no longer seem to challenge anything.
+They mostly confirm decisions that already feel locked in.I don’t have a clean explanation for this.
+What I started suspecting is that some assumptions quietly become fixed
+long before we realize they have.That pushed me toward a few uncomfortable experiments.For example, I started writing tests that cut end-to-end much earlier than felt reasonable,
+and tried to think less in terms of features
+and more in terms of “what must never break.”I also started paying attention to what actually changes for me
+when a test turns green —
+often it’s not confidence in correctness,
+but whether I still feel the need to question a particular assumption.I wrote up these observations here:
+https://github.com/felix-asher/the-essence-of-tddI’m not proposing a new methodology or a replacement for how TDD is usually taught.
+I’m mostly curious whether others have hit the same stall point —
+where tests keep passing, but design learning seems to plateau.If you’ve seen this,
+what helped you notice it — or get unstuck?
+But at some point, the design just… stops moving.Not because the system is “done,”
+but because the tests no longer seem to challenge anything.
+They mostly confirm decisions that already feel locked in.I don’t have a clean explanation for this.
+What I started suspecting is that some assumptions quietly become fixed
+long before we realize they have.That pushed me toward a few uncomfortable experiments.For example, I started writing tests that cut end-to-end much earlier than felt reasonable,
+and tried to think less in terms of features
+and more in terms of “what must never break.”I also started paying attention to what actually changes for me
+when a test turns green —
+often it’s not confidence in correctness,
+but whether I still feel the need to question a particular assumption.I wrote up these observations here:
+https://github.com/felix-asher/the-essence-of-tddI’m not proposing a new methodology or a replacement for how TDD is usually taught.
+I’m mostly curious whether others have hit the same stall point —
+where tests keep passing, but design learning seems to plateau.If you’ve seen this,
+what helped you notice it — or get unstuck?
+Not because the system is “done,”
+but because the tests no longer seem to challenge anything.
+They mostly confirm decisions that already feel locked in.I don’t have a clean explanation for this.
+What I started suspecting is that some assumptions quietly become fixed
+long before we realize they have.That pushed me toward a few uncomfortable experiments.For example, I started writing tests that cut end-to-end much earlier than felt reasonable,
+and tried to think less in terms of features
+and more in terms of “what must never break.”I also started paying attention to what actually changes for me
+when a test turns green —
+often it’s not confi</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>问HN：当测试持续通过但设计停滞不前时怎么办？</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Ask HN：当测试持续通过但设计停滞不前时怎么办？
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">测试通过。
+覆盖率提升。
+重构感觉安全。
+但在某个时刻，设计就……停止了前进。
+不是因为系统“完成”了，
+而是因为测试似乎不再挑战任何东西。
+它们大多只是确认那些已经感觉被锁定的决策。
+对此我没有一个清晰的解释。
+我开始怀疑，有些假设在我们意识到之前就悄悄地固定下来了。
+这促使我进行了一些令人不适的实验。
+例如，我开始写那些比感觉合理时间更早的端到端测试，
+并尝试少从功能角度思考，
+更多地从“什么绝不能出错”的角度考虑。
+我也开始关注当测试变绿时，
+对我来说实际发生了什么变化——
+通常并不是对正确性的信心，
+而是我是否仍然觉得需要质疑某个特定假设。
+我将这些观察记录在这里：
+https://github.com/felix-asher/the-essence-of-tdd
+我并不是在提出一种新方法论，也不是要替代通常教授的测试驱动开发（TDD）方式。
+我主要好奇是否有其他人也遇到过同样的停滞点——
+测试持续通过，但设计学习似乎停滞不前。
+如果你也遇到过，
+是什么帮助你察觉到这一点——或者让你重新走出困境？</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://news.ycombinator.com/item?id=46512006" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#9</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 45.0</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Show HN: I built an AI that gives verifiable answers</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Show HN: I built an AI that gives verifiable answers
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">Get Verifiable Answers from AI
+You bring the relevant sources, we give you accurate and verifiable answers. Every response is backed by exact citations from your context and documents.
+No credit card required
+Everything you need for verifiable AI answers
+What does James say about productivity systems?
+Every answer draws from exact passages in your documents, with direct links to verify the source. Click any citation to see it highlighted in context.
+Support for up to 75,000 words of context. Bring all your sources: upload documents, paste video transcripts or articles. We analyze everything in full for precise and verifiable answers.
+All Major Languages Supported
+Works with over 30 languages including English, Spanish, French, German, Japanese, Hindi, Arabic, and many more. Get accurate answers in your preferred language.
+Your documents are processed securely and never used to train AI models. All data is encrypted in transit and at rest with industry-standard security.
+By reasoning directly from your documents, answers become precise, grounded, and verifiable.</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>展示HN：我开发了一款能够提供可验证答案的人工智能系统</h2>
+                        
+                        
+                        <div class="summary-box">
+                            展示HN：我打造了一款能够提供可验证答案的人工智能
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">从 AI 获取可验证的答案  
+您提供相关资料，我们为您呈现准确且可验证的答案。每个回复均附有来自您提供的上下文和文档的精准引用。  
+无需信用卡  
+满足您对可验证 AI 答案的所有需求  
+
+詹姆斯对生产力系统有什么看法？  
+每个答案均基于您文档中的精确段落，并附有直接链接以验证来源。点击任一引用，即可在上下文中高亮显示。  
+
+支持最多 75,000 字的上下文内容。带上所有资料：上传文档、粘贴视频转录或文章。我们全面分析所有内容，确保答案精准且可验证。  
+
+支持所有主流语言  
+支持包括英语、西班牙语、法语、德语、日语、印地语、阿拉伯语等 30 多种语言。以您偏好的语言获得准确答案。  
+
+您的文档安全处理，绝不用于训练 AI 模型。所有数据在传输和存储过程中均采用行业标准加密。  
+
+通过直接基于您的文档推理，答案变得精准、有据可依且可验证。</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://getcitedai.com" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-index">#10</div>
+                <div class="badges">
+                    <span class="badge badge-source">Hacker News</span>
+                    <span class="badge badge-hot">🔥 45.0</span>
+                    <span class="badge badge-lang">EN</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="bilingual-grid">
+                    <!-- 英文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">English Original</div>
+                        <h2>Beyond 1s and 0s: Can AI Reason Without the Ability to Ask "Why?"</h2>
+                        
+                        
+                        <div class="summary-box">
+                            Beyond 1s and 0s: Can AI Reason Without the Ability to Ask "Why?"
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">An AI Supercomputer (DGX) to train the brain.
+A Simulation Computer (Omniverse) to simulate the world (Expectation).
+A Robot Computer (Jetson) to act in the real world (Observation).The core of this architecture is the intentional separation of Simulation and Reality—designed to create a "Sim-to-Real Gap." When the simulation says "this floor is safe" but the robot feels "slippery," that gap forces the system to become smarter.For months, I have been applying this same principle to pure information and logic.My core argument: We must engineer intentional contradiction.Current AI: Input -> Pattern Match -> Output (1 or 0). Fast. Efficient. Hollow.What I propose: Input -> Detect Gap (A ≠ B) -> Ask "Why?" -> Search -> Resolve -> Output (1 or 0). Slower. But there is a process.The final output is still binary. But the path mirrors human reasoning:
+Recognizing something does not fit.
+Asking "Why?"
+Searching for missing context.
+Forming a conclusion.Same destination. Different journey. That journey is what we call "thinking."We often talk about the "Uncanny Valley" of AI. It seems smart, yet we cannot fully trust it. I believe this exists because the world is not binary—reality is messy, probabilistic, contradictory—while AI collapses everything into 1 or 0 as quickly as possible.This is why I am skeptical of current A2A (Agent-to-Agent) trends. If Agent A outputs a probability and Agent B processes it into another probability, we are just stacking 1s and 0s. For true collaboration, Agent A must output something else: a gap, a process, a question Agent B can meaningfully engage with.I have been developing the Contextual Knowledge Network (CKN) to test this theory, focusing on Finance—the most contradictory field I know.The principle:
+Score Stream A (Logic/Expectation) and Stream B (Observation/Reality) independently.
+Trigger "Why?" only when dissonance occurs.Example: Stream A (News): "Positive earnings, price should rise" -> +9. Stream B (Chart): "Price is dropping" -> -7. Dissonance detected -> Trigger "Why?" -> AI investigates hidden context.This offers:
+Efficiency: Tag IDs and scores instead of full paragraphs reduce token consumption by 1,000x.
+Energy: Lightweight reasoning on edge devices, not massive data centers.
+Sovereignty: Reasoning structure independent of underlying models (OpenAI, Anthropic).I searched for academic papers on "contradiction handling." While there is research, I have yet to find: "Use contradiction as the fundamental trigger for reasoning itself."An AI once told me, "Technology without proof has no value." So I built a proof of concept, and ironically, it became a business. That is life.Discussion points:
+Is creativity just probability matching, or does it require conscious contradiction detection?
+Should we focus less on scaling GPUs and more on better triggers like contradiction detection?
+If we reduce token consumption by 1,000x through structured reasoning, does "Green AI" become viable for agentic systems?I realize the</div>
+                        
+                    </div>
+                    
+                    <!-- 中文列 -->
+                    <div class="lang-col">
+                        <div class="section-title">中文对照翻译</div>
+                        <h2>超越1和0：人工智能能在无法提出“为什么”的情况下进行推理吗？</h2>
+                        
+                        
+                        <div class="summary-box">
+                            超越0和1：没有“为什么”提问能力的人工智能能推理吗？
+                        </div>
+                        
+                        
+                        
+                        <div class="full-text">一台用于训练大脑的AI超级计算机（DGX）。  
+一台用于模拟世界（期望）的仿真计算机（Omniverse）。  
+一台用于在现实世界中行动的机器人计算机（Jetson）。  
+
+该架构的核心在于有意将仿真与现实分离——旨在制造“仿真到现实的鸿沟”。当仿真告诉我们“这地板是安全的”，但机器人却感受到“滑腻”，这种鸿沟迫使系统变得更智能。  
+
+数月来，我一直将这一原则应用于纯信息和逻辑领域。  
+
+我的核心观点是：我们必须设计有意的矛盾。  
+
+当前的AI：输入 -> 模式匹配 -> 输出（1或0）。快速、高效，但空洞。  
+
+我提出的方案是：输入 -> 发现鸿沟（A ≠ B） -> 询问“为什么？” -> 搜索 -> 解决 -> 输出（1或0）。过程更慢，但有思考过程。  
+
+最终输出依然是二元的，但路径更像人类推理：  
+识别出某些不符合的地方。  
+提出“为什么？”的问题。  
+寻找缺失的上下文。  
+形成结论。  
+
+目的地相同，旅程不同。这个旅程就是我们所说的“思考”。  
+
+我们常谈AI的“恐怖谷”现象——它看似聪明，却无法完全信任。我认为这是因为现实世界不是二元的——现实是混沌的、概率性的、矛盾的——而AI则尽可能快地将一切压缩为1或0。  
+
+这也是我对当前A2A（Agent-to-Agent，智能体间）趋势持怀疑态度的原因。如果智能体A输出一个概率，智能体B再将其处理成另一个概率，我们不过是在堆叠1和0。真正的协作，智能体A必须输出别的东西：一个鸿沟、一个过程、一个智能体B可以有意义参与的问题。  
+
+我一直在开发上下文知识网络（CKN）来验证这一理论，聚焦于金融——我所知最具矛盾性的领域。  
+
+原则如下：  
+独立对流A（逻辑/期望）和流B（观察/现实）进行评分。  
+仅当出现不一致时触发“为什么？”  
+
+举例：  
+流A（新闻）：“盈利积极，股价应上涨” -> +9。  
+流B（图表）：“股价下跌” -> -7。  
+检测到不一致 -> 触发“为什么？” -> AI调查隐藏的上下文。  
+
+这带来了：  
+效率：使用标签ID和分数代替整段文本，减少1000倍的token消耗。  
+能耗：在边缘设备上进行轻量推理，而非依赖庞大的数据中心。  
+主权：推理结构独立于底层模型（如OpenAI、Anthropic）。  
+
+我检索了关于“矛盾处理”的学术论文，虽然有相关研究，但尚未见到“将矛盾作为推理本身的根本触发机制”的论述。  
+
+一位AI曾对我说：“没有证据的技术毫无价值。”于是我构建了一个概念验证，讽刺的是，它最终成了一门生意。这就是生活。  
+
+讨论点：  
+创造力仅仅是概率匹配，还是需要有意识的矛盾检测？  
+我们是否应减少对GPU扩展的关注，转而关注更好的触发机制，如矛盾检测？  
+如果通过结构化推理将token消耗降低1000倍，“绿色AI”是否能成为具备自主性的系统的可行方案？  
+
+我意识到……</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <a href="https://news.ycombinator.com/item?id=46511704" class="btn btn-primary" target="_blank">阅读原文 Read Original →</a>
+            </div>
+        </div>
+        
+        
+        <footer>
+            <p>© 2026 AI资讯聚合系统 | 自动生成</p>
+            <p style="margin-top: 10px;">数据源: Twitter, Reddit, Hacker News, 机器之心, arXiv 等</p>
+        </footer>
+    </div>
+</body>
+</html>
